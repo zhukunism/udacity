@@ -132,7 +132,7 @@ def print_stats(session, feature_batch, label_batch,
     print('Loss: {:>10.4f} Validation Accuracy: {:.6f}'.format(loss,valid_acc))
 
 def save_stats(session, feature_batch, label_batch, 
-               valid_features, valid_labels
+               valid_features, valid_labels,
                cost, accuracy, batch, epoch):
     """
     Print information about loss and validation accuracy
